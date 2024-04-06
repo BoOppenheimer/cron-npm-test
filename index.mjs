@@ -14,3 +14,6 @@ const job = new CronJob(
 
 console.log("some love?")
 // job.start() is optional here because of the fourth parameter set to true.
+
+
+export job;
