@@ -16,4 +16,6 @@ console.log("some love?")
 // job.start() is optional here because of the fourth parameter set to true.
 
 
-export job;
+module.exports = (req, res) => {
+	res.status(200).json ({ message: "hello from mars"};)
+}
