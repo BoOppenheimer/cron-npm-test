@@ -12,10 +12,11 @@ const job = new CronJob(
 	'America/Los_Angeles' // timeZone
 );
 
-console.log("some love?")
+
 // job.start() is optional here because of the fourth parameter set to true.
 
 
 module.exports = (req, res) => {
+	console.log("some love?")
 	res.status(200).json ({ message: "hello from mars"});
 }
